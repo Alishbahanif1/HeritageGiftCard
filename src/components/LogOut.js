@@ -7,7 +7,7 @@ const LogOut = () => {
     const navigate = useNavigate(); 
     function handleLogout(){
         logout()
-         navigate('/login');}
+         navigate('/');}
     return (
         <div >
             <button onClick={handleLogout} style={{ padding: '0.5rem 1rem',backgroundColor:'black', color:'grey', border:'1px solid grey' }}>
