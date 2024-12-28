@@ -16,7 +16,7 @@ function NavBar() {
             
 
                
-                    {userId ==3 &&(
+                    {userId ==1 &&(
                 <>
                   <li className="nav-item">
                     <Link className="nav-link" to="/allCustomers">View All Customers</Link>
